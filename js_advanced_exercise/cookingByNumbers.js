@@ -1,11 +1,7 @@
-function cookingByNumbers(
-number,
-...params
-) {
+function cookingByNumbers(number, ...params) {
   number = Number(number);
 
   //TODO: use params
-  
 
   let chop = (x) => x / 2;
   let dice = (x) => Math.sqrt(x);
